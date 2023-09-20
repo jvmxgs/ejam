@@ -16,6 +16,7 @@ const config: Config = {
     },
     colors: {
       white: '#FFFFFF',
+      black: '#000000',
       valhalla: '#252F3D'
     }
   },

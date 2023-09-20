@@ -24,7 +24,7 @@ export default function Nav () {
   return (
     <nav className='bg-valhalla flex justify-between sm:justify-around sm:px-16'>
 
-      <button onClick={handleSlideLeft} className='ml-5 sm:hidden'>
+      <button onClick={handleSlideLeft} className='ml-5 sm:hidden' aria-label="left">
         {React.createElement(Icons.ChevronLeft)}
       </button>
 
@@ -40,7 +40,7 @@ export default function Nav () {
         </NavItem>
       ))}
 
-      <button onClick={handleSlideRight} className='mr-5 sm:hidden'>
+      <button onClick={handleSlideRight} className='mr-5 sm:hidden' aria-label="right">
         {React.createElement(Icons.ChevronRight)}
       </button>
     </nav>
