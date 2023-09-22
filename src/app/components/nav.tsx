@@ -22,7 +22,7 @@ export default function Nav () {
   }
 
   return (
-    <nav className='bg-valhalla flex justify-between sm:justify-around sm:px-16'>
+    <nav className='w-full bg-valhalla flex justify-between sm:justify-around sm:px-16'>
 
       <button onClick={handleSlideLeft} className='ml-5 sm:hidden' aria-label="left">
         {React.createElement(Icons.ChevronLeft)}
