@@ -1,4 +1,4 @@
-export default function McAfee ({ className }: { className: string }) {
+export default function McAfee ({ className }: { className?: string }) {
   return (
     <svg width="88" height="32" className={className} viewBox="0 0 88 32" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M15.2579 32C15.2579 32 -1.85272 26.1496 0.165459 2.21607C5.07928 0.886427 10.1686 0.0886427 15.2579 0C20.435 0.0886427 25.5243 0.797784 30.4381 2.21607C32.4563 26.0609 15.2579 32 15.2579 32Z" fill="url(#paint0_linear_1_24)"/>

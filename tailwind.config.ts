@@ -17,6 +17,11 @@ const config: Config = {
     colors: {
       white: '#FFFFFF',
       black: '#000000',
+      caterpillar: '#4D5254',
+      lightgray: '#d3d3d3',
+      acquamarina: '#5BB59A',
+      'midnight-moss': '#4D5254',
+      'mainly-blue': '#2C7EF8',
       valhalla: '#252F3D'
     }
   },
