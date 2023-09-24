@@ -17,11 +17,17 @@ const config: Config = {
     colors: {
       white: '#FFFFFF',
       black: '#000000',
+      red: '#F82C2C',
       caterpillar: '#4D5254',
       lightgray: '#d3d3d3',
       acquamarina: '#5BB59A',
-      'midnight-moss': '#4D5254',
       'mainly-blue': '#2C7EF8',
+      'kodama-white': '#EDF3FD',
+      'white-gray': '#FAFAFA',
+      'american-silver': '#CFCFCF',
+      'ford-gray': '#969696',
+      'sargasso-sea': '#37465A',
+      'caput-mortuum': '#59AE43',
       valhalla: '#252F3D'
     }
   },
