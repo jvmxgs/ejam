@@ -90,7 +90,15 @@ export default function Home () {
             />
             <div className='flex flex-col gap-4'>
               <div className='flex gap-6'>
-                <span className='w-[80px] h-[80px] sm:w-[134px] sm:h-[134px] shrink-0 inline-block box-border bg-center bg-cover bg-no-repeat rounded-[10px] border-[10px] border-mainly-blue' style={{ backgroundImage: 'url("./product2.png")' }}></span>
+                <span className='w-[80px] h-[80px] sm:w-[134px] sm:h-[134px] shrink-0 inline-block rounded-[10px] bg-mainly-blue'>
+                <Image
+                  src='./product2.png'
+                  alt=''
+                  width="0"
+                  height="0"
+                  className="w-full"
+                />
+                </span>
                 <div className='flex flex-col justify-between w-full'>
                   <section className='flex justify-between items-center'>
                     <span className='leading-[28px] text-sm sm:text-xl capitalize font-normal'>
