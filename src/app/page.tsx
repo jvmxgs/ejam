@@ -119,7 +119,8 @@ export default function Home () {
                     </svg>
                   </section>
                   <section className='flex gap-4'>
-                    <input type='radio'/><span className='text-sargasso-sea text-xs sm:text-base font-light'>12 left in Stock</span>
+                    <input type='radio'id="form-radio"/>
+                    <label className='text-sargasso-sea text-xs sm:text-base font-light' htmlFor='form-radio'>12 left in Stock</label>
                   </section>
                   <section className='text-caterpillar sm:block hidden leading-[22.4px] text-base font-normal'>Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a simple.</section>
                 </div>
